@@ -22,6 +22,14 @@ This project builds an end-to-end pipeline using the **Retail Product Checkout (
 
 > **Note:** Prices are simulated and denominated in CNY. They are not retrieved from a live retailer database.
 
+## Example Results
+
+### Product detection and generated checkout receipt
+
+The pipeline aggregates detections by SKU, looks up simulated prices, and generates a checkout table with quantities, line totals, and the final amount. The presentation includes examples where the predicted SKU counts exactly match the ground truth.
+
+![Smart Checkout detection and receipt example](smart-checkout-receipt-example.png)
+
 ## Dataset
 
 The experiment uses the multi-product checkout scenes from the RPC dataset. The original validation and test checkout scenes are combined and reorganized into a custom split.
