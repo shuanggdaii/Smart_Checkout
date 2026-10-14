@@ -20,6 +20,8 @@ This project builds an end-to-end pipeline using the **Retail Product Checkout (
 6. **Checkout calculation** — Calculate line totals and the final amount.
 7. **Receipt generation** — Generate an English receipt containing product names, unit prices, quantities, line totals, and the total cost.
 
+![Smart Checkout pipeline](smart-checkout-pipeline.jpg)
+
 > **Note:** Prices are simulated and denominated in CNY. They are not retrieved from a live retailer database.
 
 ## Example Results
